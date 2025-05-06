@@ -7,7 +7,7 @@
 :task_systems:
   -
     :name: jira
-    :query_string: "https://api.github.com/repos/Praqma/codesonar-plugin/issues/#{task_id}"
+    :query_string: "https://api.github.com/repos/jenkinsci/codesonar-plugin/issues/#{task_id}"
     :usr:
     :pw: 
     :regex:
