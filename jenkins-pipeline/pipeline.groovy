@@ -9,7 +9,7 @@ multibranchPipelineJob("CodeSonar Jenkins Plugin") {
     branchSources {
         git {
             credentialsId("github")
-            remote("https://github.com/Praqma/codesonar-plugin.git")
+            remote("https://github.com/jenkinsci/codesonar-plugin.git")
         }
     }
 
